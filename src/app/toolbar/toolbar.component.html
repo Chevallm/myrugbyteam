@@ -1,0 +1,17 @@
+<header>
+  <div id="logo">
+    <span [routerLink]="['/home']">Rugby</span>
+  </div>
+  <div id="menu">
+    <span>
+      <span [routerLink]="['/team']">Équipes</span>
+    </span>
+    <span>
+        <span [routerLink]="['/player']">Joueurs</span>
+    </span>
+  </div>
+  <div id="login">
+    <span *ngIf="!logged" (click)="login()">Se connecter</span>
+    <span *ngIf="logged" (click)="disconnect()">Maxime</span>
+  </div>
+</header>

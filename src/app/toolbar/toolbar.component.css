@@ -1,0 +1,17 @@
+header {
+  background-color: #673ab7;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 1vh;
+  color: white;
+}
+
+#logo {
+  font-size:  2em;
+}
+
+#menu > * {
+  margin: 0 1em;
+  cursor: pointer;
+}
